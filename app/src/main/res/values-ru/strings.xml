@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitnessKit</string>
+    <string name="lessons">Занятия</string>
+    <string name="more">Ещё</string>
+    <string name="chat">Чат</string>
+    <string name="add">Добавить</string>
+    <string name="request">Заявки</string>
+    <string name="sunday">Понедельник</string>
+    <string name="monday">Вторник</string>
+    <string name="tuesday">Среда</string>
+    <string name="wednesday">Четверг</string>
+    <string name="thursday">Пятница</string>
+    <string name="friday">Суббота</string>
+    <string name="saturday">Воскресенье</string>
+    <string name="schedule">Рассписание</string>
+</resources>
