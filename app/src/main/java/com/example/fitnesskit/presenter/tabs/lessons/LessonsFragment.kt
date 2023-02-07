@@ -101,7 +101,7 @@ class LessonsFragment : Fragment(R.layout.fragment_lessons) {
 
         for (e in sortedDate) {
 
-            val newDate = BaseDateFormat("yyyy-MM-dd", "EEEE, dd MMMM")
+            val newDate = BaseDateFormat.Base("yyyy-MM-dd", "EEEE, dd MMMM")
                 .getNewDateFormat(e.oldDate)
             newSortedDate.add(newDate)
         }
