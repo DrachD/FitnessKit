@@ -9,6 +9,6 @@ class RetrofitFitnessKitSourceImpl @Inject constructor(
 ) : BaseRetrofitSource(), RetrofitFitnessKitSource {
 
     override suspend fun fetchFitnessClub(id: Int) = wrapRetrofitException {
-        fitnessKitApi.fetchFitnessClub()
+        fitnessKitApi.fetchFitnessClub(id)
     }
 }
