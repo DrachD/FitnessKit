@@ -62,7 +62,7 @@ class FitnessAdapter(
                 fitnessTrainingDataHolder.binding.dateTextView.text = item.date
             }
             else -> {
-                throw IllegalArgumentException("Can't create view holder from view type $position")
+                throw IllegalArgumentException("Can't create bind holder fro position $position")
             }
         }
     }
@@ -78,7 +78,7 @@ class FitnessAdapter(
         if (item is TrainingDataItemList) {
             return TRAINING_DATA_VIEW_TYPE
         }
-        throw IllegalArgumentException("Can't create view holder from view type $position")
+        throw IllegalArgumentException("Can't find view type for position $position")
     }
 
     companion object {
